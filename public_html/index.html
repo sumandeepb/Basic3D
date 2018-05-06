@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+    Copyright (C) 2015-2018 Sumandeep Banerjee
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!--
+    Basic3D Viewer: Main HTML5 source
+    Author: sumandeep.banerjee@gmail.com
+-->
+<html>
+    <head>
+        <title>Basic3D Viewer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+        <link rel="stylesheet" href="basic3d.css" />
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/threejs/r69/three.min.js"></script>
+        <script type="text/javascript" src="basic3d.js"></script>
+        <div id="container">
+            <div id="spinner"></div>
+            <canvas id="main-canvas">
+                Error: Your browser does not support HTML5/WebGL. Please upgrade/install a compatible browser.
+            </canvas>
+            <div id="title"></div>
+            <div id="prompt"></div>
+            <div id="logo" title="About"></div>
+            <div id="prompt-box" title=""></div>
+            <div id="fullScreen-button" title="View Fullscreen"></div>
+            <div id="info-button" title="Help"></div>
+            <div id="splashMessage-box" title=""></div>
+            <!--div id="pan-ctl" style="position: absolute; right: 15px; bottom: 15px;">
+                <div title="Flip up" id="pan-u" style="position: absolute; left: 23px; top: 3px; cursor: pointer;"></div>
+                <div title="Rotate right" id="pan-r" style="position: absolute; left: 60px; top: 23px; cursor: pointer;"></div>
+                <div title="Flip down" id="pan-d" style="position: absolute; left: 23px; top: 60px; cursor: pointer;"></div>
+                <div title="Rotate left" id="pan-l" style="position: absolute; left: 3px; top: 23px; cursor: pointer;"></div>
+                <div title="Zoom In" id="zoom-in" style="position: absolute; left: 31px; top: 23px; cursor: pointer;">+</div>
+                <div title="Zoom Out" id="zoom-out" style="position: absolute; left: 31px; top: 41px; cursor: pointer;">-</div>
+            </div-->
+            <div id="spin-button" title="Auto Spin" ></div>
+            <div id="reset-button" title="Reset View"></div>
+            <div id="zoomin-button" title="Zoom In"></div>
+            <div id="zoomout-button" title="Zoom Out"></div>
+        </div>
+    </body>
+</html>

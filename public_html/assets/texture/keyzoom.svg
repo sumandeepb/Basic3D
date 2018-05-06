@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+<g id="Layer_1_2_">
+	<g id="Layer_1_1_">
+		<g>
+			<path fill="#FAFAFA" d="M142.9,138.9"/>
+			<path fill="#FAFAFA" d="M206.8,203.5c0,4.2-3.4,7.5-7.6,7.5H143c-4.2,0-7.5-3.4-7.5-7.5v-55.4c0-4.2,3.4-7.6,7.5-7.6h56.2
+				c4.2,0,7.6,3.4,7.6,7.6V203.5z"/>
+			<path fill="#FAFAFA" d="M132.5,203.5c0,4.2-3.4,7.5-7.6,7.5H68.8c-4.2,0-7.5-3.4-7.5-7.5v-55.4c0-4.2,3.4-7.6,7.5-7.6H125
+				c4.2,0,7.6,3.4,7.6,7.6L132.5,203.5L132.5,203.5z"/>
+		</g>
+		<g display="none">
+			<polygon display="inline" fill="#444444" points="165.9,155.4 165.9,174.4 160.3,174.4 171.1,193.2 182,174.4 176.4,174.4 
+				176.4,155.4 			"/>
+			<polygon display="inline" fill="#444444" points="115.8,169.1 96.8,169.1 96.8,163.5 78,174.3 96.8,185.2 96.8,179.6 
+				115.8,179.6 			"/>
+		</g>
+	</g>
+	<g id="Layer_3">
+		<rect x="84.6" y="162" fill="none" width="185" height="98"/>
+		<g enable-background="new    ">
+			<path fill="#444444" d="M85.5,184.6L97,168v-0.1H86.5v-4.5h17.6v3.2l-11.3,16.4v0.1h11.5v4.5H85.5V184.6z"/>
+			<path fill="#444444" d="M171.4,187.6l-2.2-4.4c-0.9-1.7-1.5-3-2.2-4.4H167c-0.5,1.4-1.1,2.7-1.9,4.4l-2,4.4h-6.3l7-12.3l-6.8-12
+				h6.3l2.1,4.4c0.7,1.5,1.3,2.7,1.8,4h0.1c0.6-1.5,1-2.6,1.7-4l2.1-4.4h6.3l-6.8,11.8l7.2,12.4H171.4z"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_3_1_">
+	<circle fill="#FFFFFF" cx="134.1" cy="88.1" r="33.1"/>
+	
+		<rect x="158" y="94" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 359.3152 85.2675)" fill="#FFFFFF" width="8" height="46.1"/>
+</g>
+<g id="Layer_4">
+	<rect x="117.4" y="56" fill="none" width="69.4" height="60.2"/>
+	<g enable-background="new    ">
+		<path fill="#444444" d="M136.7,65.9V78h11.6v5.2h-11.6v12.3h-5.4V83.2h-11.6V78h11.6V65.9H136.7z"/>
+	</g>
+	<g enable-background="new    ">
+		<path fill="#444444" d="M148.6,99.6v5.6h-29v-5.6H148.6z"/>
+	</g>
+</g>
+</svg>

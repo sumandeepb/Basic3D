@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Basic3D Viewer
+${licensePrefix}Author: sumandeep.banerjee@gmail.com
+<#if licenseLast??>
+${licenseLast}
+</#if>

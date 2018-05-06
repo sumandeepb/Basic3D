@@ -1,0 +1,311 @@
+/*
+    Copyright (C) 2015-2018 Sumandeep Banerjee
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* 
+ * Basic3D Viewer: Style specifications
+ * Author: sumandeep.banerjee@gmail.com
+ */
+
+@CHARSET "UTF-8";
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    overflow: hidden; /*  Disable scrollbars */
+    display: block;  /* No floating content on sides */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover, a:active {
+    color: white;
+    background: rgba(0,0,0,0.4);
+}
+
+#spinner {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 5em;
+    height: 5em;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 9;
+    background: url(./assets/texture/load_anim.gif) 50% 50% no-repeat;
+}
+
+#container {
+
+}
+
+#main-canvas {
+    border:none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: move;
+    z-index: 0;
+}
+
+#title { 
+    position: absolute;
+    text-align: left;
+    top: 5px;
+    background-color: rgba(64,64,64,0.15);
+    color: rgba(255,255,255,0.75);
+    font-size: 125%;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#prompt {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 5px;
+    color: rgb(200,150,0);
+}
+
+#logo {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    cursor: pointer;
+    opacity: 1.0;
+    z-index: 5;
+}
+
+#prompt-box  {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    width: 36%;
+    height: 20%;
+    min-width: 360px;
+    min-height: 200px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 2em;
+    color: white;
+    font-family: Arial;
+    z-index: 6;
+}
+
+#prompt-title {
+    background-color: rgba(0,0,0,0.15);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    line-height: 200%;
+}
+
+#prompt-close {
+}
+
+#prompt-close > img {
+    position:absolute;
+    top: 23px;
+    right: 15px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+#fullScreen-button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    opacity: 1.0;
+    z-index: 5;
+}
+
+#info-button {
+    position: absolute;
+    right: 5px;
+    top: 45px;
+    cursor: pointer;
+    opacity: 1.0;
+    z-index: 5;
+}
+
+#splashMessage-box  {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    width: 36%;
+    height: 36%;
+    min-width: 360px;
+    min-height: 360px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    border-radius: 2em;
+    z-index: 6;
+}
+
+.ui-effects-transfer {
+    border: 2px solid black;
+}
+
+#splashMessage-title {
+    background-color: rgba(0,0,0,0.15);
+    color: white;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    line-height: 200%;
+}
+
+#splashMessage-box > table {
+    text-align: center;
+}
+
+#splashMessage-box > table > tr {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#splashMessage-box > table > td {
+    padding: 0px;
+}
+
+#splash-close{
+}
+
+#splash-close > img{
+    position:absolute;
+    top: 23px;
+    right: 15px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+table figcaption {
+    color: white;
+    font-family: Arial;
+    font-size: 95%;
+}
+
+.img{
+    top: 0%;
+    left: 0%;
+    bottom:0%;
+    right:0%;
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 64px;
+    min-height: 64px;
+}
+
+#spin-button {
+    position: absolute;
+    right: 5px;
+    top: 85px;
+    cursor: pointer;
+    opacity: 1.0;
+    z-index: 5;
+}
+
+#reset-button {
+    position: absolute;
+    right: 5px;
+    top: 125px;
+    cursor: pointer;
+    opacity: 1.0;
+    z-index: 5;
+}
+
+/*
+#pan-ctl {
+    width: 80px;
+    height: 80px;
+    background: rgba(0,0,0,0.15);
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+}
+
+#pan-u {
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 18px solid rgba(0,0,0,0.5);
+}
+
+#pan-r {
+    width: 0;
+    height: 0;
+    border-bottom: 18px solid transparent;
+    border-left: 18px solid rgba(0,0,0,0.5);
+    border-top: 18px solid transparent;
+}
+
+#pan-d {
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid rgba(0,0,0,0.5);
+}
+
+#pan-l {
+    width: 0;
+    height: 0;
+    border-bottom: 18px solid transparent;
+    border-right: 18px solid rgba(0,0,0,0.5);
+    border-top: 18px solid transparent;
+}
+*/
+
+#zoomin-button {
+    position: absolute;
+    right: 5px;
+    bottom: 45px;
+    cursor: pointer;
+    opacity: 1.0;
+    z-index: 5;
+}
+
+#zoomout-button {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+    opacity: 1.0;
+    z-index: 5;
+}

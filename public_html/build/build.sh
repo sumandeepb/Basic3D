@@ -1,0 +1,2 @@
+set +v
+java -jar /usr/local/bin/closure/compiler.jar --compilation_level=SIMPLE --language_in=ECMASCRIPT5 --js_output_file=../basic3d.js ../libs/tween.js/tween.js ../libs/hammer.js/hammer.js ../libs/dat.gui/dat.gui.js  ../main.js ../renderer.js ../utility.js ../camera.js ../libs/requestAnimationFrame/RequestAnimationFrame.js ../libs/three.js/loaders/MTLLoader.js ../libs/three.js/loaders/OBJMTLLoader.js ../libs/three.js/loaders/BinaryLoader.js
